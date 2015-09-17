@@ -751,7 +751,7 @@ static errcode_t init_fs(const char* fsname, ext2_filsys *ret_fs) {
 }
 
 
-int main(int argc, char* argv[])
+int _main(int argc, char* argv[])
 {
 	ext2_filsys fs;
 	errcode_t errcode;
